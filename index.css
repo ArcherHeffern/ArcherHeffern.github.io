@@ -1,50 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Gantari:wght@500&display=swap");
+
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  --lightWhite: rgb(173, 173, 173);
+  --lightWhiteHover: rgb(216, 216, 216);
+  --brightWhite: #ffffff;
+  --headerBlack: #151212;
+  --backgroundBlack: #111111;
+  font-family: "Gantari", sans-serif;
 }
-
+/* navbar */
 nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: black;
+  background: var(--headerBlack);
   height: 50px;
 }
 nav ul li {
-  list-style-type: none;
   margin-left: 40px;
   height: inherit;
+  list-style-type: none;
 }
 nav ul li:first-child {
   margin-left: 0px;
 }
 
 nav ul li a {
-  color: white;
+  color: var(--lightWhite);
   text-decoration: none;
   height: inherit;
   line-height: 3rem;
   display: block;
+  transition: all 0.2s;
+}
+nav ul li a:hover {
+  color: var(--lightWhiteHover);
 }
 
-#welcome {
+/* sections general */
+section {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   min-height: calc(100vh - 3rem);
-  background: rgb(45, 40, 40);
+  background: var(--backgroundBlack);
 }
-#welcome div {
-  padding: 20px 40px 20px 40px;
+section div {
+  box-sizing: border-box;
   display: block;
   width: 100vw;
-  color: rgb(192, 180, 180);
+  padding: 40px 100px 200px 100px;
+  color: var(--lightWhite);
 }
 
-#welcome div h1 {
+section div h1 {
+  color: var(--brightWhite);
+  font-size: 3rem;
   font-weight: bold;
+  margin-bottom: 2rem;
 }
 
-#welcome div p {
+section div ul {
+}
+
+section div ul li,
+section div ul li a,
+section div p {
+  list-style-type: none;
+  margin: 0 0 1rem 0;
+  text-align: left;
+  text-decoration: none;
+  color: var(--lightWhite);
+}
+section div p {
+  text-decoration: underline;
+}
+
+/* Welcome section */
+
+#welcome {
+  background-image: url("labyrinth-black-background-kids-maze-2174688.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#welcome div {
+  /* background: black; */
+  /* width: 800px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
 }
