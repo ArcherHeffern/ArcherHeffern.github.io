@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Gantari:wght@500&display=swap");
 
+/* TODO: cant click on buttons because faded part is in the way: fade image in image editor */
+
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +12,11 @@
   --headerBlack: #151212;
   --backgroundBlack: #111111;
   font-family: "Gantari", sans-serif;
+}
+nav {
+  position: sticky;
+  top: 0;
+  width: 100%;
 }
 /* navbar */
 nav ul {
@@ -83,23 +90,9 @@ section div p {
 /* Welcome section */
 
 #welcome {
-  background-image: url("labyrinth-black-background-kids-maze-2174688.jpg");
+  background-image: url("output-onlinepngtools.png");
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-  z-index: -2;
-}
-
-#welcome:after {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-  top: 0;
-  left: 0;
-  display: block;
-  content: "";
-  z-index: -1;
 }
 
 #welcome div {
