@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Site</title>
     <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
   </head>
   <body>
     <nav>
       <ul>
-        <li><a href="#welcome">Welcome</a></li>
-        <li><a href="#aboutMe">About me</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
+        <li id="welcomeAnchor">Welcome</li>
+        <li id="aboutMeAnchor">About Me</li>
+        <li id="skillsAnchor">Skills</li>
+        <li id="projectsAnchor">Projects</li>
       </ul>
     </nav>
     <section id="welcome">
@@ -56,8 +57,8 @@
             information I did not think it would be a rewarding career path.
           </p>
           <p>
-            I used to have a strange obsession with making calculators with non
-            electronic parts.
+            I swear I'm not as dead inside as my photo would lead you to think,
+            I just don't ever take photos of myself.
           </p>
         </div>
         <div id="archerImgContainer">
@@ -85,12 +86,14 @@
           <h2>Chrome Extension</h2>
           <p>
             School websites are notorious for being difficult to navigate. With
-            my chrome extension (), the portal is way easier to digest visually,
-            and provides useful information as to what each link is for.
+            my chrome extension (), the Brandeis portal is way easier to digest
+            visually, and provides useful information as to what each link is
+            for. Additionally, links that don't work are removed and useful
+            resources are added.
           </p>
         </div>
         <div class="project">
-          <h2>Late night hacks: pomodoro website</h2>
+          <h2>Late Night Hacks: Pomodoro Website</h2>
           <p>
             Designed front end website for a pomodoro timer - went into this
             with no knowledge of JS and beginner knowledge of CSS and HTML.

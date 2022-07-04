@@ -14,7 +14,12 @@
 body {
   background: var(--backgroundBlack);
 }
-
+p {
+  font-size: 1.2rem;
+}
+h1 {
+  font-size: 4rem;
+}
 nav {
   position: sticky;
   top: 0;
@@ -37,13 +42,14 @@ nav ul li:first-child {
   margin-left: 0px;
 }
 
-nav ul li a {
+nav ul li {
   color: var(--lightWhite);
   text-decoration: none;
   height: inherit;
   line-height: 3rem;
   display: block;
   transition: all 0.2s;
+  cursor: pointer;
 }
 nav ul li a:hover {
   color: var(--lightWhiteHover);
@@ -147,4 +153,5 @@ section div p {
 
 #projects h2 {
   margin-bottom: 1rem;
+  text-transform: capitalize;
 }
