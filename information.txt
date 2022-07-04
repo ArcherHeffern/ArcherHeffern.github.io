@@ -18,6 +18,8 @@ I started learning computer science in second semester of college and
     
 I used to have a strange obsession with making calculators with non electronic parts. 
 
+I have lived all over the world, including New York, Texas, Hong Kong, Indonesia, Berlin, and Boston 
+
 Skills:
 
 Languages:
@@ -34,7 +36,7 @@ Backend with node.js and express.js
 frontend with html and css
 
 
-chrome extension - School websites are notorious for being difficult to navigate. With
+Chrome Extension - School websites are notorious for being difficult to navigate. With
     my chrome extension (), the portal is way easier to digest visually, and provides useful information as to what each link is for.
 
 Hackathons:

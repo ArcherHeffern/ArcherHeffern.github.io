@@ -105,6 +105,7 @@ section div p {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
 }
 
 /* #welcome div {
@@ -147,6 +148,8 @@ section div p {
   padding: 0;
   border-radius: 50%;
   width: 100%;
+  max-width: 500px;
+  min-width: 200px;
 }
 
 /* projects */
@@ -154,4 +157,10 @@ section div p {
 #projects h2 {
   margin-bottom: 1rem;
   text-transform: capitalize;
+}
+
+@media screen and (max-width: 1000px) {
+  #archerImgContainer {
+    display: none;
+  }
 }

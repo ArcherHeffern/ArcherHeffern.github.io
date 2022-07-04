@@ -13,9 +13,7 @@ skillsAnchor.addEventListener('click', skillsScroll)
 projectsAnchor.addEventListener('click', projectsScroll)
 
 function welcomeScroll() {
-    welcome.scrollIntoView({
-        behavior: 'smooth'
-    });
+    welcome.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 function aboutMeScroll() {
     aboutMe.scrollIntoView({ behavior: 'smooth', block: 'start' })
