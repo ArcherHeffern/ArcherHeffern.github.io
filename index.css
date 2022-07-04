@@ -58,7 +58,7 @@ section {
   min-height: calc(100vh - 3rem);
   background: var(--backgroundBlack);
 }
-section div {
+section > div {
   box-sizing: border-box;
   display: block;
   width: 100vw;
@@ -66,7 +66,7 @@ section div {
   color: var(--lightWhite);
 }
 
-section div h1 {
+section div > h1 {
   color: var(--brightWhite);
   font-size: 3rem;
   font-weight: bold;
@@ -85,8 +85,11 @@ section div p {
   text-decoration: none;
   color: var(--lightWhite);
 }
-section div p {
+#welcome div p {
   text-decoration: underline;
+}
+section div p {
+  margin-bottom: 2rem;
 }
 
 /* Welcome section */
@@ -98,12 +101,50 @@ section div p {
   background-attachment: fixed;
 }
 
-#welcome div {
-  /* background: black; */
-  /* width: 800px;
+/* #welcome div {
+  background: black;
+  width: 800px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; */
+  flex-direction: column;
+} */
+
+/* about me */
+
+#aboutMe {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+}
+.container :first-child {
+  margin-right: 50px;
+}
+
+/* .container > div > * {
+} */
+
+#archerImgContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+#archerImgContainer img {
+  margin: 0;
+  padding: 0;
+  border-radius: 50%;
+  width: 100%;
+}
+
+/* projects */
+
+#projects h2 {
+  margin-bottom: 1rem;
 }
