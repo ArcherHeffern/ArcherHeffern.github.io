@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Gantari:wght@500&display=swap");
 
-/* TODO: cant click on buttons because faded part is in the way: fade image in image editor */
-
 * {
   margin: 0;
   padding: 0;
@@ -13,6 +11,10 @@
   --backgroundBlack: #111111;
   font-family: "Gantari", sans-serif;
 }
+body {
+  background: var(--backgroundBlack);
+}
+
 nav {
   position: sticky;
   top: 0;
