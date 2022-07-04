@@ -1,0 +1,50 @@
+Welcome: 
+
+Archer Heffern
+
+Contact me:
+Github: https://github.com/ArcherHeffern
+Email: heffernarcher@gmail.com
+Phone number: (917)200-2368
+LinkedIn: https://www.linkedin.com/in/archer-heffern-500b3723b/
+
+About me:
+
+Hi, my name is Archer, I enjoy swimming and learning.
+
+I started learning computer science in second semester of college and
+    I instantly knew it was what I wanted to do. I always enjoyed using
+    computers and solving problems, but due to inaccurate information I did not think it would be a rewarding career path. 
+    
+I used to have a strange obsession with making calculators with non electronic parts. 
+
+Skills:
+
+Languages:
+html
+css 
+js
+node.js
+express.js
+python
+
+Skills:
+Machine learning with Python
+Backend with node.js and express.js
+frontend with html and css
+
+
+chrome extension - School websites are notorious for being difficult to navigate. With
+    my chrome extension (), the portal is way easier to digest visually, and provides useful information as to what each link is for.
+
+Hackathons:
+    Late night hacks: pomodoro website - Designed front end website for a pomodoro timer - went into this with no knowledge of JS and beginner knowledge of CSS and HTML. Learned basic JS and improved my HTML and CSS skills.
+
+Book recommender - authored a program for book recommendations based on user-reported ratings and 
+    interests. This program was written in python and helped my learn about the file system, and data structures. This project was inspired by Netflix's competition to design an algorithm to predict user ratings for films.
+
+Minecraft - Designed working calculator using the games "redstone" mechanics. These mechanics give access to basic logic gates and 
+
+
+
+Clubs/Working: todo: quant club, cs12b ta, cs tutor
