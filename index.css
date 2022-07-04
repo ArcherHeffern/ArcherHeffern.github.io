@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Gantari:wght@500&display=swap");
 
-/* TODO: cant click on buttons because faded part is in the way: fade image in image editor */
-
 * {
   margin: 0;
   padding: 0;
@@ -13,6 +11,11 @@
   --backgroundBlack: #111111;
   font-family: "Gantari", sans-serif;
 }
+
+html {
+  background: var(--headerBlack);
+}
+
 nav {
   position: sticky;
   top: 0;
@@ -56,7 +59,7 @@ section {
   min-height: calc(100vh - 3rem);
   background: var(--backgroundBlack);
 }
-section div {
+section > div {
   box-sizing: border-box;
   display: block;
   width: 100vw;
@@ -78,13 +81,10 @@ section div ul li,
 section div ul li a,
 section div p {
   list-style-type: none;
-  margin: 0 0 1rem 0;
+  margin: 0 0 2rem 0;
   text-align: left;
   text-decoration: none;
   color: var(--lightWhite);
-}
-section div p {
-  text-decoration: underline;
 }
 
 /* Welcome section */
@@ -95,7 +95,7 @@ section div p {
   background-size: cover;
 }
 
-#welcome div {
+#welcome > div {
   /* background: black; */
   /* width: 800px;
   border-radius: 50%;
@@ -103,4 +103,22 @@ section div p {
   justify-content: center;
   align-items: center;
   flex-direction: column; */
+}
+
+#welcome div p {
+  text-decoration: underline;
+}
+
+.circle {
+  width: 500px;
+  height: 500px;
+  margin: 0 700px 0 0;
+  padding: 0;
+  text-align: center;
+  border-radius: 50%;
+  background: var(--backgroundBlack);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
