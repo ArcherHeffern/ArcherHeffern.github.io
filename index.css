@@ -26,6 +26,9 @@ h4 {
   padding-bottom: 15rem;
   font-size: 2rem;
 }
+h5 {
+  font-size: 2rem;
+}
 
 nav {
   position: sticky;
@@ -112,16 +115,6 @@ section div p {
   background-position: center;
 }
 
-/* #welcome div {
-  background: black;
-  width: 800px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-} */
-
 /* about me */
 
 #aboutMe {
@@ -182,5 +175,18 @@ section div p {
 @media screen and (max-width: 1000px) {
   #archerImgContainer {
     display: none;
+  }
+  h1 {
+    font-size: 1.2rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  h4,
+  h5 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 1rem;
   }
 }
