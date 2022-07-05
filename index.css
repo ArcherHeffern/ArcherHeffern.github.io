@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   --lightWhite: rgb(173, 173, 173);
+  --middleWhite: rgb(200, 200, 200);
   --lightWhiteHover: rgb(216, 216, 216);
   --brightWhite: #ffffff;
   --headerBlack: #151212;
@@ -21,8 +22,9 @@ h1 {
   font-size: 4rem;
 }
 
-h2 {
+h4 {
   padding-bottom: 15rem;
+  font-size: 2rem;
 }
 
 nav {
@@ -152,6 +154,22 @@ section div p {
   width: 100%;
   max-width: 500px;
   min-width: 200px;
+}
+
+/* skills */
+
+#skills > div > div {
+  display: inline-block;
+  width: 100%;
+  font-size: 2rem;
+  border: 2px solid var(--middleWhite);
+  margin: 2rem;
+  padding: 2rem;
+}
+
+#skills > div > div > div {
+  margin-bottom: 2rem;
+  color: rgb(200, 200, 200);
 }
 
 /* projects */
