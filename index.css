@@ -20,6 +20,11 @@ p {
 h1 {
   font-size: 4rem;
 }
+
+h2 {
+  padding-bottom: 15rem;
+}
+
 nav {
   position: sticky;
   top: 0;
@@ -77,9 +82,6 @@ section div > h1 {
   font-size: 3rem;
   font-weight: bold;
   margin-bottom: 2rem;
-}
-
-section div ul {
 }
 
 section div ul li,
