@@ -18,7 +18,7 @@ function App() {
           title: 'Casm', 
           // description: 'Visualizer and Interpreter for Brandeis OS classes mock assembly language', 
           links: [
-            { name: 'demo', url: './casm.html' }, 
+            { name: 'demo', url: './casm' }, 
             { name: 'github', url: 'https://github.com/archerheffern/casm' },
             { name: 'youtube (todo)', url: 'todo' }
             ], 
